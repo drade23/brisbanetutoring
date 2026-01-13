@@ -1,0 +1,277 @@
+/* Responsive footer layout */
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.footer-left {
+  text-align: left;
+  flex: 1 1 200px;
+}
+.footer-right {
+  text-align: right;
+  flex: 0 0 auto;
+}
+.footer-privacy-link {
+  color: inherit;
+  text-decoration: underline;
+  font-size: 0.95em;
+}
+@media (max-width: 600px) {
+  .footer-flex {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+  .footer-left, .footer-right {
+    text-align: center;
+  }
+}
+/* Footer container custom styles */
+.footer-container {
+  text-align: center;
+}
+.footer-container p {
+  color: #cbd5f5;
+  font-size: 0.875rem;
+}
+/* Main stylesheet for North Brisbane & Moreton Bay Education Guide */
+
+:root {
+  --primary: #17643b;
+  --dark: #0f172a;
+  --muted: #64748b;
+  --light: #f8fafc;
+  --border: #e5e7eb;
+  --radius: 0.75rem;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  background: var(--light);
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+header {
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+main {
+  padding: 3rem 0;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  background: var(--dark);
+  margin-top: 3rem;
+  padding: 2rem 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.25rem 0;
+  font-weight: 500;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+/* Typography */
+h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2.5rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 2rem 0 0.75rem;
+}
+
+.intro {
+  color: var(--muted);
+  max-width: 650px;
+  font-size: 1.05rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Search */
+.search {
+  margin-left: auto;
+}
+
+.search-container {
+  margin-left: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="search"],
+.search-input {
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+  font-size: 1rem;
+  background: #fff;
+  color: var(--dark);
+  min-width: 180px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.search input[type="search"]:focus,
+.search-input:focus {
+  outline: none;
+  border-color: rgb(156, 199, 107);
+  box-shadow: 0 0 0 2px rgb(156, 199, 107);
+}
+
+.search-icon {
+  position: absolute;
+  right: 0.75rem;
+  pointer-events: none;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.search-results {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  left: 0;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  z-index: 10;
+  max-height: 260px;
+  overflow-y: auto;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0;
+  display: none;
+}
+
+.search-results.active {
+  display: block;
+}
+
+.search-result-item {
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  color: var(--dark);
+  text-align: left;
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: 1rem;
+  display: block;
+}
+
+.search-result-item:hover {
+  background: var(--light);
+}
+
+.search-bar-section {
+  background: rgb(156, 199, 107);
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Articles */
+.article-list {
+  list-style: none;
+  margin-top: 1.25rem;
+}
+
+.article-list li {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.article-list li strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+  color: var(--dark);
+}
+
+.article-list li p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary);
+  color: white;
+  border-radius: var(--radius);
+  font-weight: 600;
+}
