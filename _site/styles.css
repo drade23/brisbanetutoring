@@ -80,7 +80,9 @@ a:hover {
 }
 
 header {
-  border-bottom: 1px solid var(--border);
+  border: none;
+  padding: 0;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
