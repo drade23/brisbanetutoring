@@ -1,3 +1,10 @@
+/* Share icons layout */
+.share-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
 /* Responsive footer layout */
 .footer-flex {
   display: flex;
