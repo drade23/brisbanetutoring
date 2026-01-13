@@ -1,3 +1,9 @@
+/* Page content header layout */
+.page-header {
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+  padding: 0 1.25rem;
+}
 /* Navigation logo image */
 .nav-logo {
   height: 32px;
