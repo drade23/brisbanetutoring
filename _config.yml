@@ -1,7 +1,6 @@
 url: https://northbrisbaneeducationguide.com.au
 title: North Brisbane & Moreton Bay Education Guide
 description: Trusted, impartial educational resources for parents in North Brisbane and Moreton Bay.
-permalink: pretty
 markdown: kramdown
 plugins:
 	- jekyll-feed
