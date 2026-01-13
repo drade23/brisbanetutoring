@@ -1,3 +1,19 @@
+/* Navigation logo image */
+.nav-logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 0.75rem;
+  vertical-align: middle;
+}
+/* Copy link button layout */
+.copy-link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
 /* Share icons layout */
 .share-icons {
   display: flex;
@@ -81,7 +97,7 @@ a:hover {
 
 /* Layout */
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.25rem;
 }
