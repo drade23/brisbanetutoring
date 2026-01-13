@@ -1,3 +1,14 @@
-url: https://drade23.github.io
+url: https://northbrisbaneeducationguide.com.au
 title: North Brisbane & Moreton Bay Education Guide
 description: Trusted, impartial educational resources for parents in North Brisbane and Moreton Bay.
+permalink: pretty
+markdown: kramdown
+plugins:
+	- jekyll-feed
+	- jekyll-sitemap
+exclude:
+	- README.md
+	- Gemfile
+	- Gemfile.lock
+	- node_modules
+	- vendor

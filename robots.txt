@@ -1,10 +1,5 @@
-# ==========================================
-# robots.txt — Informational Website
-# Allow search engines, block AI crawlers
-# ==========================================
-
 # ------------------------------------------
-# Allow well-behaved search engines
+# Allow major search engines
 # ------------------------------------------
 
 User-agent: Googlebot
@@ -23,14 +18,14 @@ User-agent: YandexBot
 Allow: /
 
 # ------------------------------------------
-# Default rule (covers unknown bots)
+# Default rule
 # ------------------------------------------
 
 User-agent: *
 Allow: /
 
 # ------------------------------------------
-# Explicitly block AI / LLM crawlers
+# Block AI / LLM crawlers
 # ------------------------------------------
 
 User-agent: GPTBot
@@ -70,7 +65,7 @@ User-agent: Meta-ExternalFetcher
 Disallow: /
 
 # ------------------------------------------
-# Block common SEO scrapers & data miners
+# Block aggressive scrapers
 # ------------------------------------------
 
 User-agent: AhrefsBot
@@ -84,6 +79,17 @@ Disallow: /
 
 User-agent: DotBot
 Disallow: /
+
+# ------------------------------------------
+# Jekyll / docs cleanup
+# ------------------------------------------
+
+Disallow: /404.html
+Disallow: /feed.xml
+Disallow: /assets/
+Disallow: /search/
+Disallow: /tags/
+Disallow: /categories/
 
 # ------------------------------------------
 # Sitemap
