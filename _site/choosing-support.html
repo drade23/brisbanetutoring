@@ -4,6 +4,21 @@
   <!-- Charset and language -->
 <meta charset="UTF-8">
 
+<!-- CSP for security -->
+<meta http-equiv="Content-Security-Policy"
+content="
+default-src 'self';
+base-uri 'self';
+object-src 'none';
+frame-ancestors 'self';
+img-src 'self' data: https:;
+font-src 'self' https://fonts.gstatic.com;
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+script-src 'self' https:;
+connect-src 'self' https:;
+upgrade-insecure-requests;
+">
+
 <!-- Title and SEO basics -->
 <title>Choosing Learning Support | North Brisbane & Moreton Bay Education Guide</title>
 <meta name="description" content="Explore impartial advice on learning support options for your child. Find answers to common parent questions about tutoring, support types, costs, online vs in-person help, and when to seek extra assistance.">

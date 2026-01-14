@@ -4,6 +4,21 @@
   <!-- Charset and language -->
 <meta charset="UTF-8">
 
+<!-- CSP for security -->
+<meta http-equiv="Content-Security-Policy"
+content="
+default-src 'self';
+base-uri 'self';
+object-src 'none';
+frame-ancestors 'self';
+img-src 'self' data: https:;
+font-src 'self' https://fonts.gstatic.com;
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+script-src 'self' https:;
+connect-src 'self' https:;
+upgrade-insecure-requests;
+">
+
 <!-- Title and SEO basics -->
 <title>North Brisbane & Moreton Bay Education Guide</title>
 <meta name="description" content="Trusted, impartial educational resources for parents in North Brisbane and Moreton Bay. Clear information on schools, NAPLAN, and learning support for families.">
