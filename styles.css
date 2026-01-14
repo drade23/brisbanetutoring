@@ -323,3 +323,7 @@ h3 {
   border-radius: var(--radius);
   font-weight: 600;
 }
+/* Search results page styles */
+.search-results-list { list-style: none; padding: 0; }
+.search-results-list li { margin-bottom: 1.5em; }
+.search-highlight { background: #ffe066; }
