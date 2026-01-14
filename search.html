@@ -11,9 +11,19 @@ description: "Search the North Brisbane Education Guide for articles and resourc
 </style>
 <!-- Main content only; header/footer handled by layout -->
 
-<main class="container">
-  <h1>Search Results</h1>
-  <ul id="search-results" class="search-results-list"></ul>
+<body>
+  <main>
+    <article class="main-container">
+      <header class="page-header">
+        <h1>Search</h1>
+        <p class="intro">Find articles, guides, and resources for parents in North Brisbane & Moreton Bay.</p>
+      </header>
+      <ul id="search-results" class="search-results-list"></ul>
+      <p id="no-results" style="display:none;">No results found. Try a different search term.</p>
+    </article>
+  </main>
+<script src="/search-index.js"></script>
+<script src="/search.js"></script>
   <p id="no-results" style="display:none;">No results found. Try a different search term.</p>
 </main>
 <script src="/search-index.js"></script>
