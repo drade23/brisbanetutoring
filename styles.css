@@ -1,3 +1,24 @@
+/* Comparison table styles */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #b0b6be; /* darker border for table */
+  margin-bottom: 2rem;
+  background: #fff;
+}
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid #e0e4ea; /* light border for cells */
+  padding: 0.75em 1em;
+  text-align: left;
+}
+.comparison-table th {
+  background: #f6f8fa;
+  font-weight: 600;
+}
+.table-responsive {
+  overflow-x: auto;
+}
 /* Main content container layout */
 .main-container {
   max-width: 900px;
