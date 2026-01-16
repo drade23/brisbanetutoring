@@ -93,6 +93,13 @@
   color: #cbd5f5;
   font-size: 0.875rem;
 }
+/* Disclaimer paragraph styles */
+.disclaimer {
+  font-size: 0.85em;
+  color: var(--muted);
+  margin-top: 2rem;
+  text-align: left;
+}
 /* Main stylesheet for North Brisbane & Moreton Bay Education Guide */
 
 :root {
