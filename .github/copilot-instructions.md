@@ -1,3 +1,62 @@
+# Internal Linking Strategy & Best Practices
+
+## Why Add Internal Links Early?
+Google discovers and understands pages through links, not just sitemaps. Internal links:
+- Help Google crawl and index new pages faster
+- Signal that a page is important (pillar content)
+- Provide context about what the page is about
+- There is no downside to adding them early
+
+**Best practice:** Add internal links as soon as a page is live.
+
+## Internal Link Timing
+- Add 2–3 strong internal links from existing pages to a new important page (e.g., the comparison page) as soon as it is published
+- Add a contextual link from the homepage if relevant
+- Add links from category/hub pages and any related articles
+- Every new article should contain 1 contextual link to the comparison page, using natural, varied anchor text
+
+## Anchor Text Guidelines
+- Do not repeat the exact same anchor every time
+- Do not force keywords
+- Use descriptive, natural language that matches the surrounding sentence intent
+- Example anchors: "compare local tutoring companies", "local tutoring companies in North Brisbane", "tutoring company comparison", "choosing a tutoring company"
+
+## Placement for Maximum Impact
+- Place links within the first 2–3 paragraphs, in a "Related resources" or "Helpful guides" section, or inside FAQs
+- Avoid footer-only or sitewide keyword-stuffed nav links
+
+## How Many Links?
+- For a new local site: 3–5 internal links is good, 6–10 is strong, more than 15 is unnecessary early on
+- Quality and context matter more than quantity
+
+## Internal Link Hierarchy (Hub & Spoke Model)
+**Homepage**
+	↓
+**Comparison Page (Pillar)**
+	↔
+**Supporting Articles (Spokes)**
+
+This structure signals to Google that the site is about helping parents choose tutoring services locally.
+
+## What NOT to Do
+- Do not link to the comparison page from every page immediately
+- Do not use identical anchor text everywhere
+- Do not bury the link in footers only
+- Do not change URLs, <title>, or H1s once linked (let Google stabilise the page)
+
+## Action Plan
+**Today:**
+- Add 2–3 internal links from existing pages to the comparison page
+
+**Next 30–60 days:**
+- Add links naturally as you publish new articles
+
+**After rankings start:**
+- Consider a homepage feature block or "Popular guide" link
+
+**Ongoing:**
+- Review anchor text variety and internal linking map
+- Add hub sections and related links as the site grows
 # Copilot Instructions for North Brisbane & Moreton Bay Education Guide
 
 ## Project Overview
